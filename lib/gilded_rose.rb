@@ -3,7 +3,7 @@ class GildedRose
   def initialize(items)
     @items = items
   end
-
+  
   def update_quality()
     @items.each do |item|
       if item.name != "Aged Brie" and item.name != "Backstage passes to a TAFKAL80ETC concert"
